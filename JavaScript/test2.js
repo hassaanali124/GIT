@@ -13,4 +13,7 @@ function hoursAttended(attended, length) {
     }
     return flag;
 }
-console.log(hoursAttended(undefined, undefined))
+console.log(hoursAttended(6, 10) === true);
+console.log(hoursAttended(6, 10) === true);
+console.log(hoursAttended(6, 10) === true);
+console.log(hoursAttended(6, 10) === true);

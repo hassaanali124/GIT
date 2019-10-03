@@ -5,4 +5,10 @@ function isValidName(name) {
     }
     return flag;
 }
-console.log(isValidName("741"));
+console.log(isValidName("Frank") === true);
+console.log(isValidName(false) === false);
+console.log(isValidName(null) === false);
+console.log(isValidName(undefined) === false);
+console.log(isValidName("") === false);
+
+console.log(isValidName("X") === false);
